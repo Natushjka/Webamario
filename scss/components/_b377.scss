@@ -1,0 +1,27 @@
+.bgi-1 {
+    height: 670px;
+    background-image: url(../multimedia/b377.jpg);
+
+    @include media(xs);
+    @include media(sm);
+    @include media(md);
+    @include media(lg);
+}
+.style-poem1{
+    @include poemas(1em,600,left);
+}
+.retrato {
+    @extend %retrato;
+}
+
+h3{
+    @include encabezados(center,500 ,$color-2 );
+}
+
+.link2{
+    color:$bg-main;
+}
+
+.link2:hover {
+   @include hover($color-2);
+}

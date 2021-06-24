@@ -1,0 +1,25 @@
+.behance {
+    width: 2em;
+    height: 2em;
+}
+
+@media only screen and (min-width: 1000px) {
+    .sticky {
+        position: sticky;
+        width: 18em;
+        top:0.05em;
+        height: 1em;
+
+    }
+}  
+.fixed2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: $color-2;
+    position: fixed;
+    bottom: 2.5em;
+}
+.redes2 {
+    padding: 10px;
+}

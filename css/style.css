@@ -1,0 +1,449 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+/*header secciones*/
+.bg {
+  background-color: #D9AD2B;
+  height: 100%;
+  padding: 1.5em;
+  border-bottom: solid #9f2f21;
+  border-left: solid #9f2f21;
+  border-right: solid #9f2f21;
+}
+
+header nav img {
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+}
+
+.menu-style {
+  width: 80%;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flecha {
+  height: 2em;
+  width: 1em;
+  transition: all 250ms;
+}
+
+.flecha:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: #9f2f21;
+  font-weight: 600;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #9f2f21;
+}
+
+#img {
+  height: 37em;
+  width: 22em;
+}
+
+/*info eventos*/
+.bg1 {
+  background-color: #D9AD2B;
+}
+
+.info {
+  background-color: #7d8471;
+  color: #D9AD2B;
+  font-size: 2em;
+  letter-spacing: 3px;
+}
+
+/* descripción homepage*/
+h2 {
+  color: #9f2f21;
+  font-weight: 600;
+}
+
+.style-paragraph {
+  line-height: 1.3em;
+  font-size: 1em;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+/*fotos homepage*/
+.photo-item {
+  height: 500px;
+}
+
+.avatares {
+  width: 200px;
+  height: 250px;
+  border-radius: 150px;
+  margin: 8em auto 4em;
+  display: flex;
+  justify-content: center;
+}
+
+.autores-paragraph {
+  line-height: 30px;
+  text-align: center;
+  margin: 2em 4em 2em;
+}
+
+.poema-item {
+  width: 300px;
+  height: 400px;
+  margin-left: 2em;
+  padding: 2em;
+  transition: all 250ms;
+}
+
+.poema-item:hover {
+  transform: scale(1.05);
+  z-index: 1;
+  box-shadow: 5px 5px 15px #94949483;
+}
+
+h4,
+h5 {
+  color: #9f2f21;
+  font-weight: 600;
+}
+
+.bgi-1 {
+  height: 670px;
+  background-image: url(../multimedia/b377.jpg);
+}
+@media (max-width: 400px) {
+  .bgi-1 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .bgi-1 {
+    display: none;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1360px) {
+  .bgi-1 {
+    display: block;
+  }
+}
+@media (min-width: 1360px) {
+  .bgi-1 {
+    display: block;
+    background-image: no-repeat;
+  }
+}
+
+.style-poem1 {
+  margin-left: 4em;
+  letter-spacing: 3px;
+  line-height: 1em;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 500;
+  color: #9f2f21;
+}
+
+.link2 {
+  color: #fff;
+}
+
+.link2:hover {
+  color: #9f2f21;
+  font-weight: 600;
+}
+
+.bgi-2 {
+  height: 670px;
+  background-image: url(../multimedia/barcaza.jpg);
+}
+@media (max-width: 400px) {
+  .bgi-2 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .bgi-2 {
+    display: none;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1360px) {
+  .bgi-2 {
+    display: block;
+  }
+}
+@media (min-width: 1360px) {
+  .bgi-2 {
+    display: block;
+    background-image: no-repeat;
+  }
+}
+
+.style-poem2 {
+  margin-left: 4em;
+  letter-spacing: 3px;
+  line-height: 1em;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 500;
+  color: #9f2f21;
+}
+
+.link1 {
+  color: #9f2f21;
+}
+
+.link1:hover {
+  color: #fff;
+  font-weight: 600;
+}
+
+.bgi-3 {
+  height: 1000px;
+  background-image: url(../multimedia/paraguay.jpg);
+}
+@media (max-width: 400px) {
+  .bgi-3 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .bgi-3 {
+    display: none;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1360px) {
+  .bgi-3 {
+    display: block;
+  }
+}
+@media (min-width: 1360px) {
+  .bgi-3 {
+    display: block;
+    background-image: no-repeat;
+  }
+}
+
+h3 {
+  text-align: center;
+  font-weight: 500;
+  color: #9f2f21;
+}
+
+.bgi-4 {
+  height: 850px;
+  background-image: url(../multimedia/asesina.jpg);
+}
+@media (max-width: 400px) {
+  .bgi-4 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .bgi-4 {
+    display: none;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1360px) {
+  .bgi-4 {
+    display: block;
+  }
+}
+@media (min-width: 1360px) {
+  .bgi-4 {
+    display: block;
+    background-image: no-repeat;
+  }
+}
+
+.style-poem4 {
+  margin-left: 4em;
+  letter-spacing: 3px;
+  line-height: 4em;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: right;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 500;
+  color: #9f2f21;
+}
+
+.bgi-5 {
+  height: 610px;
+  background-image: url(../multimedia/grifo2.jpg);
+}
+@media (max-width: 400px) {
+  .bgi-5 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .bgi-5 {
+    display: none;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1360px) {
+  .bgi-5 {
+    display: block;
+  }
+}
+@media (min-width: 1360px) {
+  .bgi-5 {
+    display: block;
+    background-image: no-repeat;
+  }
+}
+
+h3 {
+  text-align: center;
+  font-weight: 500;
+  color: #9f2f21;
+}
+
+.link4 {
+  color: #D9AD2B;
+}
+
+.link4:hover {
+  color: #9f2f21;
+  font-weight: 600;
+}
+
+.bgi-6 {
+  height: 610px;
+  background-image: url(../multimedia/timpanos.jpg);
+}
+@media (max-width: 400px) {
+  .bgi-6 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .bgi-6 {
+    display: none;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1360px) {
+  .bgi-6 {
+    display: block;
+  }
+}
+@media (min-width: 1360px) {
+  .bgi-6 {
+    display: block;
+    background-image: no-repeat;
+  }
+}
+
+.style-poem6 {
+  margin-left: 4em;
+  letter-spacing: 3px;
+  line-height: 2em;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: right;
+}
+
+.link3 {
+  color: #9f2f21;
+}
+
+.link3:hover {
+  color: black;
+  font-weight: 600;
+}
+
+.behance {
+  width: 2em;
+  height: 2em;
+}
+
+@media only screen and (min-width: 1000px) {
+  .sticky {
+    position: sticky;
+    width: 18em;
+    top: 0.05em;
+    height: 1em;
+  }
+}
+.fixed2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: #9f2f21;
+  position: fixed;
+  bottom: 2.5em;
+}
+
+.redes2 {
+  padding: 10px;
+}
+
+/*footer*/
+.fixed {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #9f2f21;
+  position: fixed;
+  bottom: 1em;
+}
+
+.redes {
+  padding: 20px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #7d8471;
+}
+footer section div div img {
+  width: 12em;
+  height: 20em;
+}
+
+.retrato {
+  height: 250px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Merriweather", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+.bgi-2 {
+    height: 670px;
+    background-image:url(../multimedia/barcaza.jpg);
+
+    @include media(xs);
+    @include media(sm);
+    @include media(md);
+    @include media(lg);
+}
+.style-poem2{
+    @include poemas(1em,500,left);
+}
+.retrato {
+    @extend %retrato;
+}
+
+h3{
+    @include encabezados(center,500 ,$color-2 );
+}
+
+.link1{
+    color:$color-2
+}
+
+.link1:hover {
+   @include hover($bg-main);
+}

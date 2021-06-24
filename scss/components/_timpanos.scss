@@ -1,0 +1,22 @@
+.bgi-6 {
+    height: 610px;
+    background-image:url(../multimedia/timpanos.jpg);
+
+    @include media(xs);
+    @include media(sm);
+    @include media(md);
+    @include media(lg);
+}
+.style-poem6{
+    @include poemas(2em,600,right)
+}
+.retrato {
+    @extend %retrato;
+}
+.link3{
+    color:$color-2;
+}
+
+.link3:hover {
+   @include hover(black);
+}

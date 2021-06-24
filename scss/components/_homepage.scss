@@ -1,0 +1,30 @@
+/*info eventos*/
+.bg1{
+        background-color: $color-3;
+    }
+
+
+.info {
+    background-color: #7d8471;
+    color:$color-3;
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+/* descripción homepage*/
+
+h2 {
+    color: $color-2;
+    font-weight: 600;
+}
+
+.style-paragraph {
+    line-height: 1.3em;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/*fotos homepage*/
+.photo-item {
+    height: 500px;
+}

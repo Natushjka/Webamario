@@ -1,0 +1,56 @@
+/*header secciones*/
+.bg {
+    background-color: $color-3;
+    height: 100%;
+    padding: 1.5em;
+    border-bottom: solid $color-2;
+    border-left: solid $color-2;
+    border-right: solid $color-2;
+}
+
+header {
+    nav {
+        img {
+            height: 8em;
+            width: 8em;
+            border-radius: 50%;
+        }
+    }
+}
+
+.menu-style {
+    width: 80%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flecha {
+    height: 2em;
+    width: 1em;
+    transition: all 250ms;
+}
+
+.flecha:hover {
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: $color-2;
+    font-weight: 600;
+}
+
+h2 {
+    @include encabezados(center, 700, $color-2);
+}
+
+#img {
+    height: 37em;
+    width: 22em;
+}

@@ -1,0 +1,20 @@
+.bgi-4 {
+    height: 850px;
+    background-image: url(../multimedia/asesina.jpg);
+
+    @include media(xs);
+    @include media(sm);
+    @include media(md);
+    @include media(lg);
+}
+.style-poem4{
+    @include poemas(4em,500,right);
+
+}
+.retrato {
+    @extend %retrato;
+}
+
+h3{
+    @include encabezados(center,500 ,$color-2 );
+}

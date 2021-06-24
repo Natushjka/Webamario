@@ -1,0 +1,16 @@
+.bgi-3 {
+    height: 1000px;
+    background-image:url(../multimedia/paraguay.jpg);
+
+    @include media(xs);
+    @include media(sm);
+    @include media(md);
+    @include media(lg);
+}
+.retrato {
+    @extend %retrato;
+}
+
+h3{
+    @include encabezados(center,500 ,$color-2 );
+}

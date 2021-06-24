@@ -1,0 +1,47 @@
+@mixin hover ($color){
+    color: $color;
+    font-weight: 600;
+    
+}
+@mixin poemas ($line, $weight, $align) {
+    margin-left: 4em;
+    letter-spacing: 3px;
+    line-height: $line;
+    font-size: 1em;
+    font-weight: $weight;
+    text-align: $align;
+
+}
+
+@mixin encabezados ($align, $weight, $color) {
+    text-align: $align;
+    font-weight: $weight;
+    color: $color;
+}
+
+@mixin media($media) {
+    @if $media==xs {
+        @media (max-width: $breakpoint-xs) {
+            display: none;
+        }
+    }
+
+    @else if $media==sm {
+        @media (max-width: $breakpoint-sm) {
+            display: none;
+        }
+    }
+
+    @else if $media==md {
+        @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+            display: block;
+        }
+    }
+
+    @else if $media==lg {
+        @media (min-width: $breakpoint-lg) {
+            display: block;
+            background-image: no-repeat;
+        }
+    }
+}
