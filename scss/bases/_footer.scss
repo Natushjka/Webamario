@@ -14,10 +14,12 @@
 
 
 footer {
-    background-color: #7d8471;
-
+    background-color: $color-4;
     section {
         div {
+            p{
+                color: $color-2;
+            }
             div {
                 img {
                     width: 12em;
