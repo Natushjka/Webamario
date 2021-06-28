@@ -388,12 +388,28 @@ h3 {
   height: 2em;
 }
 
+section div h2 {
+  font-size: 1em;
+}
+section div ul {
+  list-style: none;
+}
+section div img {
+  width: 14em;
+  height: 14em;
+}
+
+.card1 {
+  background-color: #fff;
+  width: 15em;
+  padding: 1em;
+}
+
 @media only screen and (min-width: 1000px) {
   .sticky {
-    position: sticky;
-    width: 18em;
-    top: 0.05em;
-    height: 1em;
+    position: fixed;
+    top: 9em;
+    margin-bottom: 10em;
   }
 }
 .fixed2 {
@@ -441,7 +457,7 @@ footer section div div img {
 }
 
 body {
-  background-color: #fff;
+  background-color: #f8f8d9;
   font-family: "Merriweather", serif;
 }
 
