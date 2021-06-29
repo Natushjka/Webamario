@@ -5,42 +5,28 @@
 
 section {
     div {
-        h2{
+        h2 {
             font-size: 1em;
         }
-        ul{
+
+        ul {
             list-style: none;
-        }
-        img {
-            width: 14em;
-            height: 14em;
         }
     }
 }
 
-.card1{
+.card1 {
     background-color: #fff;
     width: 15em;
     padding: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
 }
 
 @media only screen and (min-width: 1000px) {
     .sticky {
-        position: fixed;
-        top: 9em;
-        margin-bottom: 10em;
+        position: sticky;
+        top: 1em;
+        margin-left: 0em;
     }
-}
-
-.fixed2 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    background-color: $color-2;
-    position: fixed;
-    bottom: 2.5em;
-}
-
-.redes2 {
-    padding: 10px;
 }
