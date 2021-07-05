@@ -23,47 +23,41 @@
     <!--menu-->
     <header>
         <nav class="navbar navbar-expand-xl navbar-light">
-            <div class="container-fluid">
-                <a href="index.html" class="link d-flex">
-                    <img src="multimedia/logo.jpg" alt="logo">
-                    <h1 class="display-6 p-5">Webmario</h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse show" id="navbarWithDropdown">
-                    <ul class="navbar-nav menu-style">
-                        <li class="nav-item">
-                            <a class="active link bg" aria-current="page" href="autores.html">Autores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="active link" href="indice.html">Índice</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <img src="multimedia/flecha-hacia-abajo.svg" alt="flecha hacia abajo" class="dropdown-toggle flecha"
-                                id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item link" href="b377.html">B-377 A-773</a></li>
-                                <li><a class="dropdown-item link" href="barcaza.html">Barcaza</a></li>
-                                <li><a class="dropdown-item link" href="paraguay.html">Calle Paraguay</a></li>
-                                <li><a class="dropdown-item link" href="asesina.html">La asesina de tu corazón</a>
-                                </li>
-                                <li><a class="dropdown-item link" href="grifo.html">La muerte del grifo</a></li>
-                                <li><a class="dropdown-item link" href="timpanos.html">Tímpanos</a></li>
-                            </ul>
-                        <li class="nav-item">
-                            <a class="active link" aria-current="page" href="galeria.html">Galería</a>
-                        </li>
-                        </li>
-                    </ul>
-                </div>
+          <div class="container-fluid">
+            <a href="index.html"> <img src="multimedia/logo.jpg" alt="">
+            <h1>Webmario</h1>
+        </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+              <ul class="navbar-nav menu">
+                <li class="nav-item">
+                  <a class="nav-link active bg" aria-current="page" href="autores.html">Autores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="indice.html">Índice</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <img src="multimedia/flecha-hacia-abajo.svg" alt="" class="nav-link dropdown-toggle flecha" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="b377.html">B-377 A-77</a></li>
+                    <li><a class="dropdown-item" href="barcaza.html">Barcaza</a></li>
+                    <li><a class="dropdown-item" href="paraguay.html">Calle Paraguay</a></li>
+                    <li><a class="dropdown-item" href="asesina.html">La asesina de tu corazón</a></li>
+                    <li><a class="dropdown-item" href="grifo.html">La muerte de grifo</a></li>
+                    <li><a class="dropdown-item" href="timpanos.html">Tímpanos</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="galeria.html">Galería</a>
+                </li>
+              </ul>
             </div>
+          </div>
         </nav>
     </header>
-    <!--info autores-->
+     <!--info autores-->
     <section class="container mb-5">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-12">
@@ -110,41 +104,43 @@
     <!-- Footer-->
     <footer>
         <section class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-12 col-12 p-3">
-                    <div class="d-flex justify-content-center">
-                        <img src="multimedia/search.svg" class="lupa" alt="lupa con ojo en el medio">
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-12 col-12 mt-5 pt-5">
-                    <h4 class="text-center">Buenos Aires, 2021</h4>
-                </div>
-                <div class="col-lg-4 col-sm-12 col-12 pt-5">
-                    <h4 class="text-center pt-5">Únetenos</h4>
-                    <p class="text-center">
-                        Si quieres formar parte de nuestro webmario, deja tus datos y te contactaremos
-                    </p>
-                    <form>
-                        <div class="row mb-3 pt-3">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre</label>
-                            <div class="col-sm-10">
-                                <input type="email" class="form-control" id="inputEmail3">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
-                            <div class="col-sm-10">
-                                <input type="password" class="form-control" id="inputPassword3">
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <button type="submit" class="btn btn-secondary m-3">Enviar</button>
-                        </div>
-                    </form>
-                </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 col-12">
+              <div class="input-group pt-5">
+                <input type="text" class="form-control" aria-label="Username" aria-describedby="input-group-right">
+                <span class="input-group-text" id="input-group-right-example">Buscar</span>
+              </div>
+              <img src="multimedia/search.svg" alt="lupa">
             </div>
+            <div class="col-lg-4 col-sm-12 col-12 mt-5 pt-5">
+              <p class="text-center footer">Desarrollado por Natasha Silva. Buenos Aires, 2021</p>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-12 pt-5">
+              <h4 class="text-center footer pt-5">Únetenos</h4>
+              <p class="text-center footer">
+                Si quieres formar parte de nuestro webmario, deja tus datos y te contactaremos
+              </p>
+              <form>
+                <div class="row mb-3 pt-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label footer p-1">Nombre</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label footer">Email</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3">
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-secondary m-3">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </section>
-    </footer>
+      </footer>
     <!-- links JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">

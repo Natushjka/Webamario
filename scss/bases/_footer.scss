@@ -16,17 +16,17 @@
 footer {
     background-color: $color-4;
     section {
-        div {
-            p{
-                color: $color-2;
-            }
             div {
                 img {
-                    width: 12em;
-                    height: 20em;
+                    margin-left: 7em;
+                    width: 6em;
+                    height: 10em;
 
                 }
             }
         }
     }
-}
+
+    .footer{
+        color: $color-3;
+    }

@@ -1,34 +1,63 @@
 /*header secciones*/
 .bg {
-    background-color: $color-3;
+    background-color: $color-2;
     height: 100%;
     padding: 1.5em;
-    border-bottom: solid $color-2;
-    border-left: solid $color-2;
-    border-right: solid $color-2;
+    border-bottom: solid $color-3;
+    border-left: solid $color-3;
+    border-right: solid $color-3;
 }
 
 header {
     nav {
-        img {
-            height: 8em;
-            width: 8em;
-            border-radius: 50%;
+        div {
+            display: flex;
+
+            img {
+                height: 4em;
+                width: 4em;
+                border-radius: 50%;
+            }
         }
     }
 }
 
 .menu-style {
-    width: 80%;
+    background-color: $color-2;
     font-size: 1.5em;
+    width: 100%;
+}
+
+.menu {
+    width: auto;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    margin-left: 10em;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .menu {
+        width: auto;
+        display: flex;
+        align-items: right;
+        justify-content: space-around;
+        margin-left: 25em;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+    .menu {
+        width: auto;
+        display: flex;
+        align-items: right;
+        justify-content: space-around;
+        margin-left: 24em;
+    }
 }
 
 .flecha {
-    height: 2em;
-    width: 1em;
+    height: 3em;
+    width: 2em;
     transition: all 250ms;
 }
 
@@ -42,8 +71,8 @@ header {
 }
 
 .link:hover {
-    color: $color-2;
-    font-weight: 600;
+    color: $color-3;
+    font-size: 600;
 }
 
 h2 {

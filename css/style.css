@@ -7,31 +7,57 @@
 
 /*header secciones*/
 .bg {
-  background-color: #D9AD2B;
+  background-color: #9f2f21;
   height: 100%;
   padding: 1.5em;
-  border-bottom: solid #9f2f21;
-  border-left: solid #9f2f21;
-  border-right: solid #9f2f21;
+  border-bottom: solid #D9AD2B;
+  border-left: solid #D9AD2B;
+  border-right: solid #D9AD2B;
 }
 
-header nav img {
-  height: 8em;
-  width: 8em;
+header nav div {
+  display: flex;
+}
+header nav div img {
+  height: 4em;
+  width: 4em;
   border-radius: 50%;
 }
 
 .menu-style {
-  width: 80%;
+  background-color: #9f2f21;
   font-size: 1.5em;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  width: 100%;
 }
 
+.menu {
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 10em;
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .menu {
+    width: auto;
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+    margin-left: 25em;
+  }
+}
+@media (min-width: 700px) and (max-width: 1200px) {
+  .menu {
+    width: auto;
+    display: flex;
+    align-items: right;
+    justify-content: space-around;
+    margin-left: 24em;
+  }
+}
 .flecha {
-  height: 2em;
-  width: 1em;
+  height: 3em;
+  width: 2em;
   transition: all 250ms;
 }
 
@@ -45,8 +71,8 @@ header nav img {
 }
 
 .link:hover {
-  color: #9f2f21;
-  font-weight: 600;
+  color: #D9AD2B;
+  font-size: 600;
 }
 
 h2 {
@@ -73,6 +99,94 @@ h2 {
 }
 
 /* descripción homepage*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat 6, 1fr;
+  grid-template-rows: repeat 6, 1fr;
+  grid-gap: 1em;
+}
+
+.container1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  height: 25em;
+  width: 20em;
+}
+
+.container2 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.container3 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+  height: 30em;
+  width: 25em;
+}
+
+.container4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat 4, 1fr;
+    grid-gap: 0;
+    grid-template-areas: "area-1" "area-2" "area-3" "area-4";
+  }
+
+  .container1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: 20em;
+    width: 15em;
+    margin-left: 5em;
+    grid-area: area-1;
+  }
+
+  .container2 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-area: area-2;
+    font-size: 0.8em;
+  }
+
+  .container3 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    height: 25em;
+    width: 18em;
+    margin-left: 5em;
+    grid-area: area-3;
+  }
+
+  .container4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-area: area-4;
+    font-size: 0.8em;
+  }
+}
 h2 {
   color: #9f2f21;
   font-weight: 600;
@@ -139,7 +253,7 @@ h5 {
     display: none;
   }
 }
-@media (min-width: 1023px) and (max-width: 1360px) {
+@media (min-width: 1024px) and (max-width: 1360px) {
   .bgi-1 {
     display: block;
   }
@@ -189,7 +303,7 @@ h3 {
     display: none;
   }
 }
-@media (min-width: 1023px) and (max-width: 1360px) {
+@media (min-width: 1024px) and (max-width: 1360px) {
   .bgi-2 {
     display: block;
   }
@@ -239,7 +353,7 @@ h3 {
     display: none;
   }
 }
-@media (min-width: 1023px) and (max-width: 1360px) {
+@media (min-width: 1024px) and (max-width: 1360px) {
   .bgi-3 {
     display: block;
   }
@@ -271,7 +385,7 @@ h3 {
     display: none;
   }
 }
-@media (min-width: 1023px) and (max-width: 1360px) {
+@media (min-width: 1024px) and (max-width: 1360px) {
   .bgi-4 {
     display: block;
   }
@@ -312,7 +426,7 @@ h3 {
     display: none;
   }
 }
-@media (min-width: 1023px) and (max-width: 1360px) {
+@media (min-width: 1024px) and (max-width: 1360px) {
   .bgi-5 {
     display: block;
   }
@@ -353,7 +467,7 @@ h3 {
     display: none;
   }
 }
-@media (min-width: 1023px) and (max-width: 1360px) {
+@media (min-width: 1024px) and (max-width: 1360px) {
   .bgi-6 {
     display: block;
   }
@@ -427,12 +541,14 @@ section div ul {
 footer {
   background-color: #383838;
 }
-footer section div p {
-  color: #9f2f21;
+footer section div img {
+  margin-left: 7em;
+  width: 6em;
+  height: 10em;
 }
-footer section div div img {
-  width: 12em;
-  height: 20em;
+
+.footer {
+  color: #D9AD2B;
 }
 
 .retrato {

@@ -23,46 +23,40 @@
 <body>
     <!--menu-->
     <header>
-        <nav class="navbar navbar-expand-xl navbar-light">
-            <div class="container-fluid">
-                <a href="index.html" class="link d-flex">
-                    <img src="multimedia/logo.jpg" alt="logo">
-                    <h1 class="display-6 p-5">Webmario</h1>
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse show" id="navbarWithDropdown">
-                    <ul class="navbar-nav menu-style">
-                        <li class="nav-item">
-                            <a class="active link" aria-current="page" href="autores.html">Autores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="active link" href="indice.html">Índice</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <img src="multimedia/flecha-hacia-abajo.svg" alt="flecha hacia abajo"
-                                class="dropdown-toggle flecha" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item link" href="b377.html">B-377 A-773</a></li>
-                                <li><a class="dropdown-item link" href="barcaza.html">Barcaza</a></li>
-                                <li><a class="dropdown-item link" href="paraguay.html">Calle Paraguay</a></li>
-                                <li><a class="dropdown-item link" href="asesina.html">La asesina de tu corazón</a>
-                                </li>
-                                <li><a class="dropdown-item link" href="grifo.html">La muerte del grifo</a></li>
-                                <li><a class="dropdown-item link" href="timpanos.html">Tímpanos</a></li>
-                            </ul>
-                        <li class="nav-item">
-                            <a class="active link bg" aria-current="page" href="galeria.html">Galería</a>
-                        </li>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <!--Info artista sticky-->
     <section class="card1 sticky">
