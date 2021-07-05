@@ -23,64 +23,70 @@
 <body>
     <!--menu-->
     <header>
-    <nav class="navbar navbar-expand-xl navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse show" id="navbarWithDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
+        <nav class="navbar navbar-expand-xl navbar-light">
+            <div class="container-fluid">
+                <img src="multimedia/logo.jpg" alt="logo">
+                <a class="link" href="index.html">
+                    <h1>Webmario</h1>
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+                    <ul class="navbar-nav menu">
+                        <li class="nav-item">
+                            <a class="link active mx-2" aria-current="page" href="autores.html">Autores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="link active mx2" href="indice.html">Índice</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <img src="multimedia/flecha-hacia-abajo.svg" alt=""
+                                class="nav-link dropdown-toggle flecha mx-2" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item link" href="b377.html">B-377 A-77</a></li>
+                                <li><a class="dropdown-item link" href="barcaza.html">Barcaza</a></li>
+                                <li><a class="dropdown-item link" href="paraguay.html">Calle Paraguay</a></li>
+                                <li><a class="dropdown-item link" href="asesina.html">La asesina de tu corazón</a></li>
+                                <li><a class="dropdown-item link" href="grifo.html">La muerte de grifo</a></li>
+                                <li><a class="dropdown-item link" href="timpanos.html">Tímpanos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item bg">
+                            <a class="link active mx-2" href="galeria.html">Galería</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <!--Info artista sticky-->
-    <section class="card1 sticky">
+    <!--Info artista-->
+    <section class="container card1 my-5 p-3">
         <div>
-            <h2 class="text-center">María Octavia Russo</h2>
-            <p class="text-center"> Caracas, Venezuela. Actualmente radicada en Córdoba, Argentina.</p>
+            <img src="multimedia/avatar_maria.jpg" class="maria" alt="">
+            <h2 class="pt-5">María Octavia Russo</h2>
+            <p> Caracas, Venezuela. Actualmente radicada en Córdoba, Argentina.</p>
         </div>
         <div>
-        <ul>
-            <li class="text-center mb-2">Ilustradora editorial</li>
-            <li><a href="https://www.behance.net/morprusso" class="link"
-                title="acceso directo al behance de la artista"><img src="multimedia/behance (1).svg" class="behance"
-                    alt="logo behance">Behance</a></li>
-            <li><a href="https://www.instagram.com/punoenelculo/?hl=es-la" class="link"
-                title="acceso directo al instagram de la artista"><img src="multimedia/instagram.svg" class="behance"
-                    alt="logo instagram">Instagram</a></li>
-                </ul>
+            <ul>
+                <li class="mb-2">Ilustradora editorial</li>
+                <li><a href="https://www.behance.net/morprusso" class="link2"
+                        title="acceso directo al behance de la artista"><img src="multimedia/behance (1).svg"
+                            class="behance" alt="logo behance">Behance</a></li>
+                <li><a href="https://www.instagram.com/punoenelculo/?hl=es-la" class="link2"
+                        title="acceso directo al instagram de la artista"> <img src="multimedia/instagram.svg"
+                            class="behance" alt="logo instagram">Instagram</a></li>
+            </ul>
         </div>
     </section>
     <!--ilustraciones en venta 1ra fila-->
-    <section class="container mb-5">
+    <section class="container m-5">
         <section class="row">
-            <div class="col-lg-3"></div>
-            <div class="card query col-lg-4 col-sm-12 col-12 mb-2">
+            <div class="col-lg-1"></div>
+            <div class="card col-lg-5 col-md-12 col-12">
                 <img src="multimedia/venta_1.jpg" class="card-img-top" alt="obra en venta, galgo mirando hacia abajo">
                 <div class="card-body">
                     <h3 class="card-title">Galgos</h3>
@@ -90,7 +96,7 @@
                 </div>
             </div>
             <div class="col-lg-1"></div>
-            <div class="card col-lg-4 col-sm-12 col-12">
+            <div class="card col-lg-5 col-md-12 col-12">
                 <img src="multimedia/venta_2.jpg" class="card-img-top"
                     alt="obra en venta, dos cabras medio cuerpo bajo el agua">
                 <div class="card-body">
@@ -104,10 +110,10 @@
         </section>
     </section>
     <!--segunda fila-->
-    <section class="container query mb-5">
+    <section class="container m-5">
         <section class="row">
-            <div class="col-lg-3"></div>
-            <div class="card col-lg-4 col-sm-12 col-12 mb-2">
+            <div class="col-lg-1"></div>
+            <div class="card col-lg-5 col-md-12 col-12 mb-2">
                 <img src="multimedia/venta_3.jpg" class="card-img-top my-5"
                     alt="obra en venta,perro negro en campo estrellado rodeado de llamas">
                 <div class="card-body">
@@ -118,7 +124,7 @@
                 </div>
             </div>
             <div class="col-lg-1"></div>
-            <div class="card col-lg-4 col-sm-12 col-12">
+            <div class="card col-lg-5 col-md-12 col-12">
                 <img src="multimedia/venta_4.jpg" class="card-img-top"
                     alt="obra en venta, dos niñas y un perro salchicha corriendo por escalera continua">
                 <div class="card-body">
@@ -132,10 +138,10 @@
         </section>
     </section>
     <!--3ra fila-->
-    <section class="container query mb-5">
+    <section class="container m-5">
         <section class="row">
-            <div class="col-lg-3"></div>
-            <div class="card col-lg-4 col-sm-12 col-12 mb-2">
+            <div class="col-lg-1"></div>
+            <div class="card col-lg-5 col-md-12 col-12">
                 <img src="multimedia/venta_5.jpg" class="card-img-top my-2"
                     alt="obra en venta, cabra de cabeza suspendida sobre daga">
                 <div class="card-body">
@@ -146,7 +152,7 @@
                 </div>
             </div>
             <div class="col-lg-1"></div>
-            <div class="card col-lg-4 col-sm-12 col-12">
+            <div class="card col-lg-5 col-md-12 col-12">
                 <img src="multimedia/venta_6.jpg" class="card-img-top"
                     alt="obra en venta, niña abrazando a un cisne en el agua">
                 <div class="card-body">
@@ -172,27 +178,30 @@
         <section class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-12 col-12">
-                    <div class= "d-flex justify-content-center">
-                        <img src="multimedia/search.svg"  alt="lupa con ojo en el medio">
+                    <div class="input-group pt-5 my-5">
+                        <input type="text" class="form-control" aria-label="Username"
+                            aria-describedby="input-group-right">
+                        <span class="input-group-text" id="input-group-right-example">Buscar</span>
                     </div>
+                    <img src="multimedia/search.svg" alt="lupa">
                 </div>
-                <div class="col-lg-4 col-sm-12 col-12">
-                    <h4 class="text-center m-5">Buenos Aires, 2021</h4>
+                <div class="col-lg-4 col-sm-12 col-12 mt-5 pt-5">
+                    <p class="text-center footer">Desarrollado por Natasha Silva. Buenos Aires, 2021</p>
                 </div>
-                <div class="col-lg-4 col-sm-12 col-12 pt-2">
-                    <h4 class="text-center pt-5">Únetenos</h4>
-                    <p class="text-center">
+                <div class="col-lg-4 col-sm-12 col-12 pt-5">
+                    <h4 class="text-center footer pt-5">Únetenos</h4>
+                    <p class="text-center footer">
                         Si quieres formar parte de nuestro webmario, deja tus datos y te contactaremos
                     </p>
                     <form>
-                        <div class="row mb-3 pt-2">
-                            <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre</label>
+                        <div class="row mb-3 pt-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label footer p-1">Nombre</label>
                             <div class="col-sm-10">
                                 <input type="email" class="form-control" id="inputEmail3">
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="inputPassword3" class="col-sm-2 col-form-label">Email</label>
+                            <label for="inputPassword3" class="col-sm-2 col-form-label footer">Email</label>
                             <div class="col-sm-10">
                                 <input type="password" class="form-control" id="inputPassword3">
                             </div>

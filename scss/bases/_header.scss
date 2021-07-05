@@ -1,14 +1,14 @@
 /*header secciones*/
 .bg {
     background-color: $color-2;
-    height: 100%;
-    padding: 1.5em;
-    border-bottom: solid $color-3;
-    border-left: solid $color-3;
-    border-right: solid $color-3;
+    padding: 1em;
+    border-bottom: solid $color-4;
+    border-left: solid $color-4;
+    border-right: solid $color-4;
 }
 
 header {
+    font-size: 1.5em;
     nav {
         div {
             display: flex;
@@ -66,13 +66,15 @@ header {
     z-index: 1;
 }
 
-.link {
+.link{
     color: black;
+    font-weight: 500;
+    
 }
 
 .link:hover {
-    color: $color-3;
-    font-size: 600;
+color: $color-3;
+font-weight: 600;
 }
 
 h2 {
